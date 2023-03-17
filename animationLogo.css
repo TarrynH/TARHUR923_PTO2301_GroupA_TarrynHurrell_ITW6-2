@@ -1,0 +1,21 @@
+/* The animation code */
+@keyframes logo {
+    from {transform: rotate(0deg);
+    filter:grayscale(100) ;}
+    to {transform: rotate(360deg);
+    filter: grayscale(0);}
+   
+  }
+  
+  /* The element to apply the animation to */
+
+
+img {
+    padding: 150px;
+    width: 100px;
+    height: 100px;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;    
+  } 
+
